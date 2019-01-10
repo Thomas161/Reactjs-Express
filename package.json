@@ -6,7 +6,7 @@
   "scripts": {
     "build": "cross-env webpack --config ./webpack.config.prod.babel.js",
     "start-dev": "cross-env NODE_ENV=development babel-node server --useLiveData=true --useServerRender=true",
-    "test" : "jest",
+    "test": "jest",
     "start-prod": "npm run build && cross-env NODE_ENV=production babel-node server --useLiveData=true --useServerRender=true"
   },
   "keywords": [],
@@ -34,6 +34,7 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.6",
+    "react-test-renderer": "^16.2.0",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-saga": "^0.15.6",
